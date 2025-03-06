@@ -1,14 +1,14 @@
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    
     background: #F7F9FF;
 
 }
 .top {
     display: flex;
     justify-content: space-between;
+    position: relative;
     align-items: center;
     padding: 15px 30px;
     background-color:white;
@@ -158,13 +158,13 @@ background: #5978FF;
 }
 .vecc{
     position: relative;
-    top: -25cm;
+    top: -24.3cm;
     left: 11cm;
 
 }
 .vecc1{
     position: relative;
-    top: -29cm;
+    top: -28.5cm;
     left: 4cm;
 
 }
@@ -187,36 +187,38 @@ background: #5978FF;
     bottom: 3cm;
 }
 .advisors{
-    margin-top: 2cm;
-    background-color: aquamarine;
+
+    background-color: rgb(235, 245, 246);
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 1cm;
-    height: 20cm;
+    height: 18cm;
 }
 .ad{
-
+    flex-direction: row;
     position: relative;
-    top: -3cm;
-    height: 13cm;
+    top: -1.5cm;
+    height: 11cm;
     width: 20%;
     border-radius: 10px;
-    background-color: white;
-    
-    
+    background-color: white;  
 }
 
     
 .adp{
-    text-decoration: none;  
-    background: linear-gradient(to right, #F0E5D7, white);
-    border-radius: 100px;
-    color: black;
-    font-size: 12px;
+    width: 272;
+height: 32;
+top: 224px;
+left: 12px;
+background: linear-gradient(90deg, rgba(248, 151, 31, 0.12) 0%, rgba(248, 248, 248, 0.24) 96.14%);
+font-family: Gilroy-SemiBold;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0%;
 
-
+color: #402708;
 
 }
 
@@ -233,9 +235,114 @@ background: #5978FF;
 .exp{
     position: relative;
     top: -1cm;
-    font-size: 11px;
+    font-size: 12px;
 
-    color: grey;
+    color: #555555;
     
+}
+.credits{
+    position: relative;
+    top: -0.7cm;
+    background-color:#F7F9FF ;
+    border-radius: 10cm;
+    
+}
+.cre{
+    font-family: Gilroy-Medium;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0%;
+text-decoration: line-through;
+margin-left: 0.3cm;
+}
+.cred{
+    font-family: Gilroy-SemiBold;
+font-weight: 400;
+font-size: 15px;
+line-height: 30px;
+letter-spacing: 0%;
+color: #0D1226;
+position: relative;
+top: -0.3cm;
+margin-left: 0.3cm;
+}
+.credi a{
+    text-decoration: none;
+    color: white;
+}
+.credi{
+    text-decoration: none;
+    position: relative;
+    top: -1.8cm;
+    left: 5cm;
+}
+.credi{
+border-radius: 16px;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 20px;
+background: #5978FF;
+width: 1.3cm;
+font-size: 15px;
+
+}
+.credits{
+    height: 1.6cm;
+    
+}
+.advii{
+ position: relative;
+ top: -3cm;
+
+}
+.advii a{
+    text-decoration: none;
+}
+.adviisor{
+    background-color: rgb(235, 245, 246);
+    margin-bottom: -1cm;
+}
+.steps{
+    margin-top: -1cm;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.fllight{
+    font-size: x-large;
+position: relative;
+font-family: Gilroy-Bold;
+font-weight: 900;
+    left: 5cm;
+}
+.sstep{
+    display: flex;
+    background-color: white;
+}
+.ss1{
+    width: 50%;
+    height: 15cm;
+}
+.ss2{
+    height: 15cm;
+    width: 50%;
+    position: relative;
+    top: -8cm;
+    right: 3cm;
+}
+.learn1{
+    height: 33%;
+    background-color: #402708;
+}
+.learn2{
+    height: 33%;
+    background-color: aqua;
+}
+.learn3{
+    height: 33%;
+    background-color: #0D1226;
 }
 
