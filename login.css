@@ -85,8 +85,8 @@ body {
 }
 .rating {
     position: relative;
-    top: -5cm;
-    left: 20cm;
+    top: -5.5cm;
+    left: 20.3cm;
 }
 .midpara1 {
     font-family: Gilroy-Bold;
@@ -129,7 +129,7 @@ body {
     position: relative;
     width: 15cm;
     top: -14.5cm;
-    left: 10cm;
+    left: 11cm;
     margin: 0 auto; 
 }
 .vecc {
