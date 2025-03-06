@@ -27,7 +27,6 @@ line-height: 16px;
 letter-spacing: 0%;
 text-align: center;
 
-
 }
 .topbuttons a {
     text-decoration: none;
@@ -42,10 +41,6 @@ text-align: center;
 }
 .loogin{
     text-decoration: none;
-width: 78;
-height: 40;
-top: 20px;
-left: 1075px;
 border-width: 1px;
 gap: 8px;
 border-radius: 10px;
@@ -60,10 +55,6 @@ background: #FFFFFF;
 }
 .loginbuttons .getstarted {
     text-decoration: none;
-    width: 121;
-height: 40;
-top: 20px;
-left: 1165px;
 gap: 8px;
 border-radius: 10px;
 padding-top: 10px;
@@ -86,8 +77,6 @@ color: white;
 .middle{
     position: relative;
 
-    width: 545;
-    height: 462;
     top: 217.07px;
     left: 110.73px;
     
@@ -104,18 +93,12 @@ color: white;
     font-size: 48px;
     line-height: 64px;
     letter-spacing: 0%;
-    width: 538;
-    height: 128;
-    top: 3px;
 
 }
 .midpara1{
     font-weight: bold;
 }
 .midpara2{
-    width: 526;
-height: 96;
-top: 177px;
 font-family: Gilroy-Medium;
 font-weight: 400;
 font-size: 18px;
@@ -125,7 +108,7 @@ color: #121214;
 margin-bottom: 2cm;
 }
 .mid3{
-    width: 358;
+
 height: 24;
 top: 5px;
 gap: 16px;
@@ -134,10 +117,6 @@ gap: 16px;
 .mid4 a{
     text-decoration: none;
     color: white;
-    width: 208;
-height: 58;
-top: 404px;
-gap: 8px;
 border-radius: 12px;
 padding-top: 17px;
 padding-right: 36px;
@@ -152,8 +131,7 @@ background: #5978FF;
 }
 .imm{
     position: relative;
-    width: 425.0040588378906;
-    height: 425.0040588378906;
+    width: 15cm;
     top: -14.5cm;
     left: 23cm;
 
@@ -162,13 +140,13 @@ background: #5978FF;
     position: relative;
     top: -24cm;
     left: 11cm;
-
+    width: 6.4cm;
 }
 .vecc1{
     position: relative;
     top: -28.4cm;
     left: 4cm;
-
+    width: 1.5cm;
 }
 .action{
     padding-top: 2cm;
@@ -327,6 +305,7 @@ font-weight: 900;
 .ss1{
     width: 50%;
     height: 15cm;
+    margin-left: 5.5cm;
 }
 .ss2{
     height: 15cm;
@@ -337,14 +316,34 @@ font-weight: 900;
 }
 .learn1{
     height: 33%;
-    background-color: #402708;
+
 }
 .learn2{
     height: 33%;
-    background-color: aqua;
+
 }
 .learn3{
     height: 33%;
-    background-color: #0D1226;
-}
 
+}
+.stepp{
+    background-color: chartreuse;
+    width: 2cm;
+    text-align: center;
+    border-width: 10px;
+    border-radius: 100cm;
+    margin-left: 0.3cm;
+    background: #CBF2E0;
+    color: #008545;
+
+}
+.stepp2{
+    margin-left: 0.3cm;
+    font-weight: 700;
+}
+.stepp3{
+    margin-left: 0.3cm;
+    color: #555555;
+    font-weight: 400;
+    font-size: 18px;
+}
