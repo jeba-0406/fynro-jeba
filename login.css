@@ -1,0 +1,241 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #F7F9FF;
+
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color:white;
+}
+.fynro {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 1cm;
+    font-family: Poppins;
+font-weight: 600;
+font-size: 18px;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: center;
+
+
+}
+.topbuttons a {
+    text-decoration: none;
+    align-items: center;
+    margin: 0 15px;
+    color:darkgray;
+}
+.loginbuttons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.loogin{
+    text-decoration: none;
+width: 78;
+height: 40;
+top: 20px;
+left: 1075px;
+border-width: 1px;
+gap: 8px;
+border-radius: 10px;
+padding-top: 10px;
+padding-right: 20px;
+padding-bottom: 10px;
+padding-left: 20px;
+background: #FFFFFF;
+
+    border: 1px solid #5978FF
+
+}
+.loginbuttons .getstarted {
+    text-decoration: none;
+    width: 121;
+height: 40;
+top: 20px;
+left: 1165px;
+gap: 8px;
+border-radius: 10px;
+padding-top: 10px;
+padding-right: 20px;
+padding-bottom: 10px;
+padding-left: 20px;
+background: #5978FF;
+color: white;
+}
+.mi-d{
+    margin-bottom: -17cm;
+}
+.midd{
+    position: relative;
+    top: -3.8cm;
+    left: 2cm;
+    display: flex;
+    margin-bottom: 4cm;
+}
+.middle{
+    position: relative;
+
+    width: 545;
+    height: 462;
+    top: 217.07px;
+    left: 110.73px;
+    
+}
+.rating{
+    position: relative;
+    top: -3cm;
+    left: 20cm;
+}
+
+.midpara1{
+    font-family: Gilroy-Bold;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0%;
+    width: 538;
+    height: 128;
+    top: 3px;
+
+}
+.midpara1{
+    font-weight: bold;
+}
+.midpara2{
+    width: 526;
+height: 96;
+top: 177px;
+font-family: Gilroy-Medium;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #121214;
+margin-bottom: 2cm;
+}
+.mid3{
+    width: 358;
+height: 24;
+top: 5px;
+gap: 16px;
+
+}
+.mid4 a{
+    text-decoration: none;
+    color: white;
+    width: 208;
+height: 58;
+top: 404px;
+gap: 8px;
+border-radius: 12px;
+padding-top: 17px;
+padding-right: 36px;
+padding-bottom: 17px;
+padding-left: 36px;
+background: #5978FF;
+
+    
+}
+.mid4{
+    margin-top: 2cm;
+}
+.imm{
+    position: relative;
+    width: 425.0040588378906;
+    height: 425.0040588378906;
+    top: -14.5cm;
+    left: 23cm;
+
+}
+.vecc{
+    position: relative;
+    top: -25cm;
+    left: 11cm;
+
+}
+.vecc1{
+    position: relative;
+    top: -29cm;
+    left: 4cm;
+
+}
+.action{
+    padding-top: 2cm;
+    background-color: white;
+    margin-bottom: 6cm;
+}
+.yout{
+    margin-top: 2cm;
+
+}
+.parama{
+    position: relative;
+    bottom: 9cm;
+    margin-bottom: 5cm;
+}
+.solve{
+    position: relative;
+    bottom: 3cm;
+}
+.advisors{
+    margin-top: 2cm;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1cm;
+    height: 20cm;
+}
+.ad{
+
+    position: relative;
+    top: -3cm;
+    height: 13cm;
+    width: 20%;
+    border-radius: 10px;
+    background-color: white;
+    
+    
+}
+
+    
+.adp{
+    text-decoration: none;  
+    background: linear-gradient(to right, #F0E5D7, white);
+    border-radius: 100px;
+    color: black;
+    font-size: 12px;
+
+
+
+}
+
+.add{
+    font-size: 15px;
+    
+}
+.piic{
+    position: relative;
+    left: 6cm;
+    top:-1cm;
+    
+}
+.exp{
+    position: relative;
+    top: -1cm;
+    font-size: 11px;
+
+    color: grey;
+    
+}
+
