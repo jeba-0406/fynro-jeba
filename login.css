@@ -12,6 +12,8 @@ body {
     align-items: center;
     padding: 15px 30px;
     background-color:white;
+    position: relative;
+    top: -0.3cm;
 }
 .fynro {
     display: flex;
@@ -158,13 +160,13 @@ background: #5978FF;
 }
 .vecc{
     position: relative;
-    top: -23.8cm;
+    top: -24cm;
     left: 11cm;
 
 }
 .vecc1{
     position: relative;
-    top: -27.8cm;
+    top: -28.4cm;
     left: 4cm;
 
 }
