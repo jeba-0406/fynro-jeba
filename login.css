@@ -12,17 +12,24 @@ body {
 }
 
 .toop{
-    height: 2.5cm;
+    height: 2cm;
     background-color: white;
     display: flex;
     flex-direction: row;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 .fyynro{
     display: flex;
     align-items: center;
     width: 5cm;
     margin-left: 1cm;
-    
+    font-weight: 600;
+    font-size: 18px;
+    font-family: poppins;
 
 }
 .toopbuttons a,
@@ -30,12 +37,17 @@ body {
     position: relative;
     z-index: 100;
 }
-
+.credi a {
+    position: relative;
+    z-index: 100;
+}
 .toopbuttons{
     margin-left: 7.5cm;
     display: flex;
     align-items: center;
     gap:40px ;
+    font-weight: 600;
+    font-size: 16px;
 }
 .toopbuttons a{
     text-decoration: none;
@@ -44,7 +56,7 @@ body {
     display: flex;
     gap: 15px;
     align-items: center;
-    margin-left: 6cm;
+    margin-left: 7.5cm;
 }
 
 .loogin {
@@ -58,6 +70,9 @@ body {
     padding-left: 20px;
     background: #FFFFFF;
     border: 1px solid #5978FF;
+    font-weight: 500;
+    font-size: 14px;
+    color:#5978FF ;
 }
 
 .loginbuttons .getstarted {
@@ -70,12 +85,17 @@ body {
     padding-left: 20px;
     background: #5978FF;
     color: white;
+    font-weight: 500;
+    font-size: 14px;
 }
-
+.coll{
+    height: 2.5cm;
+    background-color: #F7F9FF;
+}
 .mi-d {
     background-color: #F7F9FF;
     margin-bottom: 0;
-    height: 18cm;
+    height: 20cm;
 }
 
 .midd {
@@ -94,7 +114,7 @@ body {
 
 .rating {
     position: relative;
-    top: -5.5cm;
+    top: -7.5cm;
     left: 20.3cm;
 }
 
@@ -135,6 +155,8 @@ body {
     padding-bottom: 17px;
     padding-left: 36px;
     background: #5978FF;
+    font-weight: 400;
+    font-size: 18px;
 }
 
 .mid4 {
@@ -167,7 +189,7 @@ body {
     margin-top: -5cm;
     padding-top: 2cm;
     background-color: white;
-    margin-bottom: 6cm;
+
 }
 
 .yout {
@@ -177,16 +199,20 @@ body {
 .parama {
     position: relative;
     bottom: 9cm;
-    margin-bottom: 5cm;
 }
-
+.solvee{
+    height: 5cm;
+    background-color:#F7F9FF ;
+}
 .solve {
     position: relative;
     bottom: 3cm;
+    background-color: #F7F9FF;
+    height: 20cm;
 }
 
 .advisors {
-    background-color: rgb(235, 245, 246);
+
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -220,7 +246,8 @@ body {
 }
 
 .add {
-    font-size: 15px;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .piic {
@@ -232,7 +259,8 @@ body {
 .exp {
     position: relative;
     top: -1cm;
-    font-size: 12px;
+    font-weight: 400;
+    font-size: 14px;
     color: #555555;
 }
 
@@ -251,6 +279,7 @@ body {
     letter-spacing: 0%;
     text-decoration: line-through;
     margin-left: 0.3cm;
+    color: #555555;
 }
 
 .cred {
@@ -294,16 +323,41 @@ body {
 
 .advii {
     position: relative;
-    top: -3cm;
+    top: -4.5cm;
 }
 
 .advii a {
     text-decoration: none;
 }
+.bgg{
+    position: absolute;
+    z-index: 2;
+    margin-left: 70px;
+    margin-top: 65px;
+    }
+.gridd{
+    position: absolute;
+    z-index: 1;
+    margin-top: -3.5cm;
+}
+.adviiisor {
+    margin-top: -3cm;
+    
+    height: 787.72px; /* Keep it simple */
+    background: #0000000A;
+background: #00000014;
+background: linear-gradient(89.88deg, rgba(89, 120, 255, 0.12) -0.71%, rgba(89, 120, 255, 0) 87.02%);
+background: #00000012;
+
+
+}
 
 .adviisor {
-    background-color: rgb(235, 245, 246);
-    margin-bottom: -1cm;
+    z-index: 3;
+    padding-top: 1.9cm;
+    margin-bottom: -2cm;
+    height: 5cm;
+    font-size: 14px;
 }
 
 .steps {
@@ -382,7 +436,7 @@ body {
 
 .customer {
     background-color: white;
-    margin-top: 2.5cm;
+    margin-top: 6cm;
     height: 18cm;
 }
 
@@ -391,12 +445,16 @@ body {
 
 
 }
-
+.custs{
+    font-weight: 700;
+    font-size: 28px;
+    font-family: Gilroy-Bold;
+}
 .cu2 {
     margin-top: 1cm;
     height: 13cm;
     background-color: white;
-    margin-left: 2cm;
+    margin-left: 8cm;
     margin-right: 2cm;
     display: flex;
     flex-direction: row;
@@ -405,7 +463,6 @@ body {
 
 .cuu2 {
     margin-top: 2cm;
-    margin-left: 3cm;
     height: 10cm;
     width: 8cm;
     background-color: white;
@@ -453,4 +510,23 @@ body {
 
 .cur {
     margin-top: 1.5cm;
+}
+.deals{
+    background-color:#008545;
+    height: 20cm;
+}
+.excl{
+    background-color: #7f8ec7;
+    height: 2cm;
+    display: flex;
+    align-items: center;
+    padding-left: 15cm;
+    font-size: 30px;
+    font-weight: 700;
+}
+.deal1{
+    background-color:#5978FF;
+    height: 8cm;
+    margin-left: 8cm;
+    margin-top: 3cm;
 }
