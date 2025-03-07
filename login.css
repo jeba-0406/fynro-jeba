@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     margin-right: 0;
     padding: 0;
@@ -8,41 +8,45 @@
 body {
     font-family: Arial, sans-serif;
     background: white;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
-.top {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    align-items: center;
-    padding: 15px 30px;
+
+.toop{
+    height: 2.5cm;
     background-color: white;
-    position: relative;
-    top: -0.3cm;
+    display: flex;
+    flex-direction: row;
 }
-.fynro {
+.fyynro{
     display: flex;
     align-items: center;
-    position: relative;
-    left: 1cm;
-    font-family: Poppins;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 16px;
-    letter-spacing: 0%;
-    text-align: center;
+    width: 5cm;
+    margin-left: 1cm;
+    
+
 }
-.topbuttons a {
-    text-decoration: none;
+.toopbuttons a,
+.loginbuttons a {
+    position: relative;
+    z-index: 100;
+}
+
+.toopbuttons{
+    margin-left: 7.5cm;
+    display: flex;
     align-items: center;
-    margin: 0 15px;
-    color: darkgray;
+    gap:40px ;
+}
+.toopbuttons a{
+    text-decoration: none;
 }
 .loginbuttons {
     display: flex;
     gap: 15px;
     align-items: center;
+    margin-left: 6cm;
 }
+
 .loogin {
     text-decoration: none;
     border-width: 1px;
@@ -55,6 +59,7 @@ body {
     background: #FFFFFF;
     border: 1px solid #5978FF;
 }
+
 .loginbuttons .getstarted {
     text-decoration: none;
     gap: 8px;
@@ -66,11 +71,13 @@ body {
     background: #5978FF;
     color: white;
 }
+
 .mi-d {
-    background-color:#F7F9FF;
-    margin-bottom: 0; 
+    background-color: #F7F9FF;
+    margin-bottom: 0;
     height: 18cm;
 }
+
 .midd {
     position: relative;
     top: -3.8cm;
@@ -78,16 +85,19 @@ body {
     display: flex;
     margin-bottom: 4cm;
 }
+
 .middle {
     position: relative;
     top: 217.07px;
     left: 110.73px;
 }
+
 .rating {
     position: relative;
     top: -5.5cm;
     left: 20.3cm;
 }
+
 .midpara1 {
     font-family: Gilroy-Bold;
     font-weight: 400;
@@ -95,9 +105,11 @@ body {
     line-height: 64px;
     letter-spacing: 0%;
 }
+
 .midpara1 {
     font-weight: bold;
 }
+
 .midpara2 {
     font-family: Gilroy-Medium;
     font-weight: 400;
@@ -107,11 +119,13 @@ body {
     color: #121214;
     margin-bottom: 2cm;
 }
+
 .mid3 {
     height: 24;
     top: 5px;
     gap: 16px;
 }
+
 .mid4 a {
     text-decoration: none;
     color: white;
@@ -122,55 +136,65 @@ body {
     padding-left: 36px;
     background: #5978FF;
 }
+
 .mid4 {
     margin-top: 2cm;
 }
+
 .imm {
     position: relative;
     width: 15cm;
     top: -14.5cm;
     left: 11cm;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
+
 .vecc {
     position: relative;
     top: -24cm;
     left: 11cm;
     width: 6.4cm;
 }
+
 .vecc1 {
     position: relative;
     top: -28.4cm;
     left: 4cm;
     width: 1.5cm;
 }
+
 .action {
     margin-top: -5cm;
     padding-top: 2cm;
     background-color: white;
     margin-bottom: 6cm;
 }
+
 .yout {
     margin-top: 2cm;
 }
+
 .parama {
     position: relative;
     bottom: 9cm;
     margin-bottom: 5cm;
 }
+
 .solve {
     position: relative;
     bottom: 3cm;
 }
+
 .advisors {
     background-color: rgb(235, 245, 246);
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 1cm;
     height: 18cm;
 }
+
 .ad {
     flex-direction: row;
     position: relative;
@@ -180,6 +204,7 @@ body {
     border-radius: 10px;
     background-color: white;
 }
+
 .adp {
     width: 272;
     height: 32;
@@ -193,26 +218,31 @@ body {
     letter-spacing: 0%;
     color: #402708;
 }
+
 .add {
     font-size: 15px;
 }
+
 .piic {
     position: relative;
     left: 6cm;
     top: -1cm;
 }
+
 .exp {
     position: relative;
     top: -1cm;
     font-size: 12px;
     color: #555555;
 }
+
 .credits {
     position: relative;
     top: -0.7cm;
     background-color: #F7F9FF;
     border-radius: 10cm;
 }
+
 .cre {
     font-family: Gilroy-Medium;
     font-weight: 400;
@@ -222,6 +252,7 @@ body {
     text-decoration: line-through;
     margin-left: 0.3cm;
 }
+
 .cred {
     font-family: Gilroy-SemiBold;
     font-weight: 400;
@@ -233,16 +264,19 @@ body {
     top: -0.3cm;
     margin-left: 0.3cm;
 }
+
 .credi a {
     text-decoration: none;
     color: white;
 }
+
 .credi {
     text-decoration: none;
     position: relative;
     top: -1.8cm;
     left: 5cm;
 }
+
 .credi {
     border-radius: 16px;
     padding-top: 10px;
@@ -253,20 +287,25 @@ body {
     width: 2cm;
     font-size: 15px;
 }
+
 .credits {
     height: 1.6cm;
 }
+
 .advii {
     position: relative;
     top: -3cm;
 }
+
 .advii a {
     text-decoration: none;
 }
+
 .adviisor {
     background-color: rgb(235, 245, 246);
     margin-bottom: -1cm;
 }
+
 .steps {
     margin-top: -1cm;
     background-color: white;
@@ -274,6 +313,7 @@ body {
     flex-direction: row;
     align-items: center;
 }
+
 .fllight {
     font-size: x-large;
     position: relative;
@@ -281,15 +321,18 @@ body {
     font-weight: 900;
     left: 5cm;
 }
+
 .sstep {
     display: flex;
     background-color: white;
 }
+
 .ss1 {
     width: 50%;
     height: 15cm;
     margin-left: 5.5cm;
 }
+
 .ss2 {
     height: 15cm;
     width: 50%;
@@ -297,19 +340,23 @@ body {
     top: -8cm;
     right: 3cm;
 }
-.learn1{
+
+.learn1 {
     height: 33%;
 
 }
-.learn2{
+
+.learn2 {
     height: 33%;
 
 }
-.learn3{
+
+.learn3 {
     height: 33%;
 
 }
-.stepp{
+
+.stepp {
     background-color: chartreuse;
     width: 2cm;
     text-align: center;
@@ -320,29 +367,34 @@ body {
     color: #008545;
 
 }
-.stepp2{
+
+.stepp2 {
     margin-left: 0.3cm;
     font-weight: 700;
 }
-.stepp3{
+
+.stepp3 {
     margin-left: 0.3cm;
     color: #555555;
     font-weight: 400;
     font-size: 18px;
 }
-.customer{
+
+.customer {
     background-color: white;
     margin-top: 2.5cm;
     height: 18cm;
 }
-.cu1{
+
+.cu1 {
     font-size: 25px;
-    
+
 
 }
-.cu2{
+
+.cu2 {
     margin-top: 1cm;
-    height:13cm ;
+    height: 13cm;
     background-color: white;
     margin-left: 2cm;
     margin-right: 2cm;
@@ -350,40 +402,47 @@ body {
     flex-direction: row;
     gap: 0.5cm;
 }
-.cuu2{
+
+.cuu2 {
     margin-top: 2cm;
     margin-left: 3cm;
     height: 10cm;
     width: 8cm;
     background-color: white;
     border-radius: 1cm;
-    align-items: center;   
+    align-items: center;
 }
-.cuc1{
+
+.cuc1 {
     height: 10cm;
-    background-color:#F0F9FA;
+    background-color: #F0F9FA;
     border-radius: 1cm;
 }
-.cuc2{
+
+.cuc2 {
     height: 10cm;
-    background-color:#FFF5EC;
+    background-color: #FFF5EC;
     border-radius: 1cm;
 }
-.cuc3{
+
+.cuc3 {
     height: 10cm;
     background-color: #ECF1FB;
     border-radius: 1cm;
 }
-.cup{
+
+.cup {
     position: relative;
-    top:-1cm;
+    top: -1cm;
     left: 2.5cm;
 
 }
-.cun{
+
+.cun {
     margin-top: -0.8cm;
 }
-.cui{
+
+.cui {
     margin-top: 1cm;
     margin-left: 0.6cm;
     margin-right: 0.6cm;
@@ -391,6 +450,7 @@ body {
     font-size: 16px;
 
 }
-.cur{
+
+.cur {
     margin-top: 1.5cm;
 }
