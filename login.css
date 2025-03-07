@@ -41,6 +41,10 @@ body {
     position: relative;
     z-index: 100;
 }
+.advii a{
+    position: relative;
+    z-index: 100;
+}
 .toopbuttons{
     margin-left: 7.5cm;
     display: flex;
@@ -333,7 +337,7 @@ body {
     position: absolute;
     z-index: 2;
     margin-left: 70px;
-    margin-top: 65px;
+    margin-top: -3cm;
     }
 .gridd{
     position: absolute;
